@@ -479,4 +479,14 @@ int __android_log_buf_print(int bufID, int prio, const char *tag, const char *fm
 }
 #endif
 
+#define LOGE ALOGE
+#define LOGV ALOGV
+#define LOGD ALOGD
+#define LOGI ALOGI
+#define LOGW ALOGW
+#define LOGE_IF ALOGE_IF
+
+
+
+
 #endif // _LIBS_CUTILS_LOG_H
